@@ -43,7 +43,7 @@ Here is a [pr example](https://github.com/subscan-explorer/projects-info/pull/58
 
 1. put your description file in the right folder like `networks/kusama/parachain/<network>.json`
 2. put your images to `assets/images/<network>.<svg/png>`
-3. go [polkadot apps signing](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.polkadot.io#/signing) to sign your description file content (**paste all content of the description file**) with **The parachain owner account**
+3. go to sign your description file content (**paste all content of the description file**) with **The parachain owner account** using the signing tool for your network: [For Polkadot](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.polkadot.io#/signing), [For Kusama](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/signing), [For Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/signing), [For Westend](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwestend-rpc.polkadot.io#/signing)
 4. make a pull request to our repo, and replace placeholders of `Para ID Owner & Signature Account` and `Signature Hash` of `Signature Auto check` by the Owner account and Signature
 5. check all of the checklist
 6. done, now you can create and wait for the Signature Checker to pass your request, and our team will double-check and confirm your request
