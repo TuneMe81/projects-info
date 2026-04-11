@@ -16,6 +16,11 @@ Refactor: use gcp img instead of inline img to reduce package size
 
 - Please use the *owner account* that submitted `registrar_reserve` to sign the `project information`, and fill in the signature. We will compare the submitted information with the signature. If it does not match, the pr will not be merged.
 
+- If you are not sure which address is yours:
+  1. Open [Polkadot.js Apps](https://polkadot.js.org/apps/) and switch to the target network (Polkadot / Kusama / Westend).
+  2. Go to **Accounts** and copy your address for that network.
+  3. The same wallet can have different address formats on different networks (different SS58 prefixes). You can convert between formats with [Subscan format transform](https://polkadot.subscan.io/tools/format_transform).
+
 - After each update of the `project information`, please sign the latest data and submit the signature.
 
 - Signature tool: [For Polkadot](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.polkadot.io#/signing), [For Kusama](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fkusama-rpc.polkadot.io#/signing) , [For Rococo](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frococo-rpc.polkadot.io#/signing) , [For Westend](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwestend-rpc.polkadot.io#/signing).
