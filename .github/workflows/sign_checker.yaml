@@ -36,7 +36,7 @@ jobs:
           sha: ${{ github.event.pull_request.head.sha }}
           prNum: ${{ github.event.pull_request.number }}
           token: ${{ secrets.GITHUB_TOKEN }}
-          filenames: ${{ steps.changed-files.outputs.all_changed_and_modified_files }}
+          filenames: ${{ steps.changed-files.outputs.all_changed_files }}
           subscanAPIKey: ${{ secrets.SUBSCAN_APIKEY }}
       - uses: actions-ecosystem/action-remove-labels@v1
         if: always()
@@ -49,7 +49,7 @@ jobs:
           labels: Signature Verified
       - name: Label when logo format error
         uses: actions-ecosystem/action-add-labels@v1
-        if: failure() && steps.signature.outputs.logoVerified == 'false'
+        if: always() && steps.signature.outputs.logoVerified == 'false'
         with:
           labels: Logo Format Error
       - name: Label remove when disapproved
