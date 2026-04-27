@@ -1,0 +1,20 @@
+{
+    "data": {
+        "ParaID": 2000,
+        "Project Name": "Acala",
+        "SS58 Prefix": "10",
+        "Logo": "../../assets/images/acala.svg",
+        "Cover": "",
+        "Description (en)": "Acala is the decentralized finance hub of Polkadot. It is a scalable, Ethereum-compatible layer-1 smart contract platform optimized for DeFi. Acala offers a suite of financial primitives including a multi-collateralized stablecoin backed by cross-chain assets (aUSD), a trustless staking derivative (Liquid DOT), and an AMM DEX.",
+        "Description (zh)": "Acala 是 Polkadot 的去中心化金融中心，是一个可扩展的、与以太坊兼容的、为 DeFi 优化的第一层智能合约平台。该平台提供了一套金融原语，包括由跨链资产支持的多抵押稳定币（aUSD）、无需信任的质押衍生品（Liquid DOT）和 AMM DEX。",
+        "Auction Reward & Reward Vesting Schedule (en)": "https://acala.network/acala/crowdloan",
+        "Auction Reward & Reward Vesting Schedule (zh)": "https://acala.network/acala/crowdloan",
+        "Website Link": "https://acala.network/acala",
+        "Twitter Link": "https://twitter.com/AcalaNetwork",
+        "Telegram Link": "https://t.me/acalaofficial",
+        "Discord Link": "https://discord.gg/6QHVY4X",
+        "Medium Link": "https://medium.com/acalanetwork",
+        "Github Link": "https://github.com/AcalaNetwork",
+        "Owner account": "F7SDfU2TTgcfKxtn7jWgskKJaVzYmguXP3muirMJCUJGTzD"
+    }
+}
