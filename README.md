@@ -4,6 +4,10 @@ This repo contains info of projects used in [Subscan parachain module](https://r
 
 ## Changelog
 
+### 2.2.2
+
+Add Acala/Karura project info for Kusama parachain
+
 ### 2.2.0
 
 Refactor: use gcp img instead of inline img to reduce package size
