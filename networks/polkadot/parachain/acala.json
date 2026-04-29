@@ -1,0 +1,20 @@
+{
+    "data": {
+        "ParaID": 2000,
+        "Project Name": "Acala",
+        "Logo": "../../assets/images/acala.svg",
+        "Description (en)": "Acala is an Ethereum-compatible smart contract platform optimized for DeFi and powered by the ACA token. It offers a suite of financial primitives, including a trustless staking derivative (Liquid DOT), a multi-collateralized stablecoin backed by cross-chain assets (aUSD), and an AMM DEX – enabling developers to access DeFi building blocks and compose DeFi applications.",
+        "Description (zh)": "Acala 是针对 DeFi 优化的以太坊兼容智能合约平台，由 ACA 代币驱动。它提供一套金融原语，包括无需信任的质押衍生品（Liquid DOT）、由跨链资产支持的多抵押稳定币（aUSD）和 AMM DEX，使开发者能够访问 DeFi 构建模块并组合 DeFi 应用程序。",
+        "Parachain Crowdloans Allocation (en)": "https://acala.network/acala/crowdloan",
+        "Parachain Crowdloans Allocation (zh)": "https://acala.network/acala/crowdloan",
+        "Auction Reward & Reward Vesting Schedule (en)": "https://acala.network/acala/crowdloan",
+        "Auction Reward & Reward Vesting Schedule (zh)": "https://acala.network/acala/crowdloan",
+        "Website Link": "https://acala.network/",
+        "Twitter Link": "https://twitter.com/AcalaNetwork",
+        "Telegram Link": "https://t.me/acalaofficial",
+        "Discord Link": "https://discord.com/invite/vdbFVCH",
+        "Medium Link": "https://medium.com/acalanetwork",
+        "Github Link": "https://github.com/AcalaNetwork",
+        "Owner account": ""
+    }
+}

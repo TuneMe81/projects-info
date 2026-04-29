@@ -1,0 +1,17 @@
+{
+    "data": {
+        "ParaID": 2034,
+        "Project Name": "Hydration",
+        "Logo": "../../assets/images/hydrate.png",
+        "Description (en)": "Hydration is a next-gen DeFi protocol which is designed to bring omnipool liquidity to the Polkadot ecosystem. Hydration enables efficient trading, liquidity provisioning, and DeFi applications on Polkadot.",
+        "Description (zh)": "Hydration 是新一代 DeFi 协议，旨在为 Polkadot 生态系统带来全池流动性。Hydration 在 Polkadot 上实现高效交易、流动性提供和 DeFi 应用程序。",
+        "Auction Reward & Reward Vesting Schedule (en)": "https://hydration.net/",
+        "Auction Reward & Reward Vesting Schedule (zh)": "https://hydration.net/",
+        "Website Link": "https://hydration.net/",
+        "Twitter Link": "https://twitter.com/hydration_net",
+        "Telegram Link": "https://t.me/hydration_net",
+        "Discord Link": "https://discord.gg/hydration",
+        "Github Link": "https://github.com/galacticcouncil",
+        "Owner account": ""
+    }
+}
