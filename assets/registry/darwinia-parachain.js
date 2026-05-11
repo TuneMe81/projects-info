@@ -9,9 +9,7 @@ const definitions = {
   types: [
     {
       // on all versions
-      minmax: [0, undefined],
-      types: {
-        Address: 'AccountId',
+      minmax: [0, assets,addresses 5CAr8Ktm9o4MjGMkd9xAZSqwkqWVG8nw5dRKU2zBHMHfavBi
         LookupSource: 'AccountId',
         RefCount: 'u8',
         BalanceLock: {
