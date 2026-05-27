@@ -50,11 +50,12 @@ Open `Quacks_metadata.json`. In the `sources` section, you might see a structure
 "sources": {
   "Quacks.sol": {
     "keccak256": "0x...",
-    "urls": ["bzz-raw://...", "dweb:/ipfs/..."] // Subscan cannot read these external links
+    "urls": ["bzz-raw://...", "dweb:/ipfs/..."]
   }
 }
-
 ```
+
+> **Note:** Subscan cannot read these external IPFS/Swarm links — you must replace them with inline `content` (see below).
 
 #### 2. Modify JSON: Inject Source Code
 
@@ -69,21 +70,17 @@ You need to replace or add to the entry with a `"content"` field containing the 
     "optimizer": {
       "enabled": true,
       "runs": 200
-    },
-    // ... other settings
+    }
   },
   "sources": {
-    // For the main file
     "Quacks.sol": {
       "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Quacks { ... PASTE FULL SOURCE CODE HERE ... }"
     },
-    // For dependencies (e.g., OpenZeppelin) - EVERY imported file needs this
     "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol": {
       "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts...\n... PASTE FULL LIBRARY SOURCE HERE ..."
     }
   }
 }
-
 ```
 
 > **💡 Tips:**
