@@ -23,7 +23,7 @@ Before verification, ensure your local compilation environment in Remix matches 
 #### 2. Configure Compiler
 
 * Navigate to the **Solidity Compiler** tab.
-* **Compiler Version:** Select the exact version used for deployment (e.g., `0.8.x`).
+* **Compiler Version:** Select the exact version used for deployment (e.g., `0.8.20`).
 * **EVM Version:** If a specific version was used (e.g., `paris`, `london`), select it; otherwise, leave as `default`.
 * **Optimization:** Check `Enable optimization` and set the `Runs` value (commonly **200**). **This must match the deployment settings.**
 * Click **Compile Quacks.sol**.
@@ -50,7 +50,7 @@ Open `Quacks_metadata.json`. In the `sources` section, you might see a structure
 "sources": {
   "Quacks.sol": {
     "keccak256": "0x...",
-    "urls": ["bzz-raw://...", "dweb:/ipfs/..."] // Subscan Standard JSON verification expects embedded source content instead of external links
+    "urls": ["bzz-raw://...", "dweb:/ipfs/..."]
   }
 }
 
@@ -69,8 +69,7 @@ You need to replace or add to the entry with a `"content"` field containing the 
     "optimizer": {
       "enabled": true,
       "runs": 200
-    },
-    // ... other settings
+    }
   },
   "sources": {
     // For the main file
@@ -85,6 +84,8 @@ You need to replace or add to the entry with a `"content"` field containing the 
 }
 
 ```
+
+In your real file, keep other required fields inside `settings` as produced by your compiler output.
 
 > **💡 Tips:**
 > * **All** imported files must be listed in `sources`.
