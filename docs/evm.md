@@ -1,3 +1,5 @@
+# EVM Contract Verification Guide
+
 Verifying your smart contract source code increases transparency and trust in your project. This guide outlines how to verify contracts on Subscan (applicable to Darwinia, Moonbeam, Astar, etc.), specifically focusing on how **Remix users** can modify the generated Metadata JSON to meet Subscan's verification requirements.
 
 ### 📍 Example Context
@@ -53,7 +55,6 @@ Open `Quacks_metadata.json`. In the `sources` section, you might see a structure
     "urls": ["bzz-raw://...", "dweb:/ipfs/..."]
   }
 }
-
 ```
 
 #### 2. Modify JSON: Inject Source Code
@@ -72,26 +73,23 @@ You need to replace or add to the entry with a `"content"` field containing the 
     }
   },
   "sources": {
-    // For the main file
     "Quacks.sol": {
       "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n/* paste the complete Quacks.sol source code here */"
     },
-    // For dependencies (e.g., OpenZeppelin) - EVERY imported file needs this
     "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol": {
       "content": "// SPDX-License-Identifier: MIT\n/* paste the complete dependency source code here */"
     }
   }
 }
-
 ```
 
 In your real file, keep other required fields inside `settings` as produced by your compiler output.
+Include every imported file in `sources` (for example, OpenZeppelin dependencies).
 
 > **💡 Tips:**
 > * **All** imported files must be listed in `sources`.
 > * The value of `"content"` must be a string (watch out for newlines `\n` and escaping quotes).
 > * If you are using Hardhat/Foundry, their generated `build-info` files already contain the `content` field, so this manual step is not needed.
->
 >
 
 #### 3. Save the File
