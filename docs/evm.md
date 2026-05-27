@@ -3,7 +3,7 @@ Verifying your smart contract source code increases transparency and trust in yo
 ### 📍 Example Context
 
 * **Target Network:** Darwinia
-* **Example Contract:** `0x00000000001523057a05d6293c1e5171ee33ee0a`
+* **Example Contract:** [`0x00000000001523057a05d6293c1e5171ee33ee0a`](https://darwinia.subscan.io/account/0x00000000001523057a05d6293c1e5171ee33ee0a?tab=contract)
 * **Tool:** [Remix IDE](https://remix.ethereum.org/)
 
 ---
@@ -50,7 +50,7 @@ Open `Quacks_metadata.json`. In the `sources` section, you might see a structure
 "sources": {
   "Quacks.sol": {
     "keccak256": "0x...",
-    "urls": ["bzz-raw://...", "dweb:/ipfs/..."] // Subscan cannot read these external links
+    "urls": ["bzz-raw://...", "dweb:/ipfs/..."] // Subscan Standard JSON verification expects embedded source content instead of external links
   }
 }
 
@@ -75,11 +75,11 @@ You need to replace or add to the entry with a `"content"` field containing the 
   "sources": {
     // For the main file
     "Quacks.sol": {
-      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\ncontract Quacks { ... PASTE FULL SOURCE CODE HERE ... }"
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n/* paste the complete Quacks.sol source code here */"
     },
     // For dependencies (e.g., OpenZeppelin) - EVERY imported file needs this
     "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol": {
-      "content": "// SPDX-License-Identifier: MIT\n// OpenZeppelin Contracts...\n... PASTE FULL LIBRARY SOURCE HERE ..."
+      "content": "// SPDX-License-Identifier: MIT\n/* paste the complete dependency source code here */"
     }
   }
 }
@@ -138,4 +138,4 @@ After verification succeeds, search the contract address on the target network a
 
 ### 📚 References
 
-* [Solidity Compiler Input/Output JSON Description](https://docs.soliditylang.org/en/v0.5.8/using-the-compiler.html#compiler-input-and-output-json-description)
+* [Solidity Compiler Input/Output JSON Description](https://docs.soliditylang.org/en/latest/using-the-compiler.html#input-description)
