@@ -74,7 +74,7 @@ You need to replace or add to the entry with a `"content"` field containing the 
   },
   "sources": {
     "Quacks.sol": {
-      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n/* paste the complete Quacks.sol source code here */"
+      "content": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.20;\n\n/* paste the complete Quacks.sol source code here */"
     },
     "@openzeppelin/contracts-upgradeable/access/AccessControlUpgradeable.sol": {
       "content": "// SPDX-License-Identifier: MIT\n/* paste the complete dependency source code here */"
@@ -133,7 +133,8 @@ After verification succeeds, search the contract address on the target network a
 | **Bytecode mismatch**  | **Optimization Runs:** Did you use 200 runs in Remix but default in the JSON? Ensure they match.                                                                                 |
 |                        | **EVM Version:** Ensure the EVM version (e.g., London/Paris) is consistent.                                                                                                      |
 | **Parsing Error**      | **JSON Syntax:** Ensure the pasted source code in the JSON doesn't break the JSON string format (escape quotes `"` with `\"`).                                                   |
-| **Alternative Method** | If manual JSON editing is too difficult, install the **"Flattener"** plugin in Remix. Flatten your code into one file, and use the **"Flatten Code"** method on Subscan instead. |
+
+If manual JSON editing is too difficult, install the **"Flattener"** plugin in Remix. Flatten your code into one file, then use Subscan's **Flatten Code** verification method.
 
 ### 📚 References
 
