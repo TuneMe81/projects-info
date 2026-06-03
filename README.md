@@ -4,6 +4,10 @@ This repo contains info of projects used in [Subscan parachain module](https://r
 
 ## Changelog
 
+### 2.2.3
+
+- Add an EVM contract verification guide in `/docs/evm.md`
+
 ### 2.2.2
 
 - Add Karura (Acala's Kusama network) project info to `networks/kusama/parachain/acala.json`
