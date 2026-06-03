@@ -3,7 +3,7 @@
         "ParaID": 0,
         "Project Name": "frontier-pos-template",
         "SS58 Prefix": "",
-        "Logo": "../../assets/images/frontier-pos-template.png",
+        "Logo": "",
         "Cover": "",
         "Description (en)": "A general public chain development template based on polkadot-sdk and Frontier, using the NPOS protocol and compatible with the Ethereum EVM. It aims to make Polkadot technology more developer-friendly and to be used by more public chain teams.",
         "Description (zh)": "",
