@@ -4,6 +4,10 @@ This repo contains info of projects used in [Subscan parachain module](https://r
 
 ## Changelog
 
+### 2.2.3
+
+- Add node-bench integration benchmarks project info reference (`substrate/bin/node/bench`)
+
 ### 2.2.2
 
 - Add Karura (Acala's Kusama network) project info to `networks/kusama/parachain/acala.json`
