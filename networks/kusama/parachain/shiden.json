@@ -1,0 +1,22 @@
+{
+  "data": {
+    "ParaID": 2007,
+    "Project Name": "Shiden Network",
+    "Logo": "../../assets/images/shiden.png",
+    "Description (en)": "Shiden Network is Astar's canary network on Kusama, providing a multi-chain smart contract platform with EVM and WebAssembly support for dApps.",
+    "Description (zh)": "",
+    "Parachain Crowdloans Allocation (en)": "",
+    "Parachain Crowdloans Allocation (zh)": "",
+    "Auction Reward & Reward Vesting Schedule (en)": "",
+    "Auction Reward & Reward Vesting Schedule (zh)": "",
+    "Financing Information (en)": "",
+    "Financing Information (zh)": "",
+    "Website Link": "https://shiden.astar.network/",
+    "Twitter Link": "https://twitter.com/ShidenNetwork",
+    "Telegram Link": "https://t.me/PlasmOfficial",
+    "Discord Link": "https://discord.gg/Z3nC9U4",
+    "Medium Link": "",
+    "Github Link": "https://github.com/AstarNetwork",
+    "Owner account": ""
+  }
+}
