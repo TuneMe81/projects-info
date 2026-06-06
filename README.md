@@ -6,7 +6,8 @@ This repo contains info of projects used in [Subscan parachain module](https://r
 
 ### 2.2.3
 
-- Add an EVM contract verification guide in `/docs/evm.md`
+- Add Basilisk and Shiden project info to `networks/kusama/parachain/`
+- Add Centrifuge and Manta project info to `networks/polkadot/parachain/`
 
 ### 2.2.2
 
