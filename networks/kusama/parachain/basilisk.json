@@ -1,0 +1,22 @@
+{
+  "data": {
+    "ParaID": 2090,
+    "Project Name": "Basilisk",
+    "Logo": "../../assets/images/basilisk.png",
+    "Description (en)": "Basilisk is the canary network for HydraDX on Kusama, focused on decentralized exchange, liquidity bootstrapping, and cross-chain DeFi experimentation.",
+    "Description (zh)": "",
+    "Parachain Crowdloans Allocation (en)": "",
+    "Parachain Crowdloans Allocation (zh)": "",
+    "Auction Reward & Reward Vesting Schedule (en)": "",
+    "Auction Reward & Reward Vesting Schedule (zh)": "",
+    "Financing Information (en)": "",
+    "Financing Information (zh)": "",
+    "Website Link": "https://bsx.fi/",
+    "Twitter Link": "https://twitter.com/basilisk_kusama",
+    "Telegram Link": "https://t.me/basilisk_kusama",
+    "Discord Link": "https://discord.gg/basilisk",
+    "Medium Link": "",
+    "Github Link": "https://github.com/galacticcouncil/Basilisk-node",
+    "Owner account": ""
+  }
+}

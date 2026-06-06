@@ -4,6 +4,11 @@ This repo contains info of projects used in [Subscan parachain module](https://r
 
 ## Changelog
 
+### 2.2.3
+
+- Add Basilisk and Shiden project info to `networks/kusama/parachain/`
+- Add Centrifuge and Manta project info to `networks/polkadot/parachain/`
+
 ### 2.2.2
 
 - Add Karura (Acala's Kusama network) project info to `networks/kusama/parachain/acala.json`
