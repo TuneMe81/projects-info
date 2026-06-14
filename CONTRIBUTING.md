@@ -37,7 +37,7 @@ Use [`networks/polkadot/parachain/template.json`](networks/polkadot/parachain/te
 ## Important Notes
 
 - Data is displayed publicly on Subscan — please fill in accurate information.
-- All fields are optional; use `" "` for fields you cannot answer at this time.
+- All fields are optional; use a single space `" "` (not an empty string) for fields you cannot answer at this time, as required by the data format.
 - The signature **must** be made by the *owner account* that submitted `registrar_reserve`.
 - After every update to the description file, re-sign the latest data and update the signature in your PR.
 - After a PR is merged, a new package version is typically released within one to two days.
