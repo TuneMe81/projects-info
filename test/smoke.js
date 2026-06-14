@@ -11,16 +11,15 @@ const expectedNetworks = [
   "coretime-polkadot",
 ];
 
-assert.ok(parachainInfos && typeof parachainInfos === "object", "Expected parachainInfos export");
+const isPlainObject = (value) =>
+  value !== null && typeof value === "object" && !Array.isArray(value);
+
+assert.ok(isPlainObject(parachainInfos), "Expected parachainInfos export");
 
 for (const network of expectedNetworks) {
   assert.ok(
     Object.prototype.hasOwnProperty.call(parachainInfos, network),
     `Expected network export for ${network}`
   );
-  assert.strictEqual(
-    typeof parachainInfos[network],
-    "object",
-    `Expected ${network} export to be an object`
-  );
+  assert.ok(isPlainObject(parachainInfos[network]), `Expected ${network} export to be an object`);
 }
