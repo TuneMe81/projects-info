@@ -54,7 +54,13 @@ Here is a [pr example](https://github.com/subscan-explorer/projects-info/pull/58
 
 (If you have submitted project info and only want to update resouces without a description file, you can skip the signature step)
 
-1. put your description file in the right folder like `networks/kusama/parachain/<network>.json`
+1. put your description file in the right folder:
+   - `networks/kusama/parachain/<network>.json`
+   - `networks/polkadot/parachain/<network>.json`
+   - `networks/rococo/parachain/<network>.json`
+   - `networks/westend/parachain/<network>.json`
+   - `networks/coretime-kusama/parachain/<network>.json`
+   - `networks/coretime-polkadot/parachain/<network>.json`
 2. put your images to `assets/images/<network>.<svg/png>`
 3. go [polkadot apps signing](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.polkadot.io#/signing) to sign your description file content (**paste all content of the description file**) with **The parachain owner account**
 4. make a pull request to our repo, and replace placeholders of `Para ID Owner & Signature Account` and `Signature Hash` of `Signature Auto check` by the Owner account and Signature

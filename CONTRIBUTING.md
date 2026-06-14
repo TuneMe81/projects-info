@@ -19,6 +19,8 @@ To add or update project info, prepare the following:
    - Polkadot: `networks/polkadot/parachain/<network>.json`
    - Rococo: `networks/rococo/parachain/<network>.json`
    - Westend: `networks/westend/parachain/<network>.json`
+   - Coretime Kusama: `networks/coretime-kusama/parachain/<network>.json`
+   - Coretime Polkadot: `networks/coretime-polkadot/parachain/<network>.json`
 2. Put your icon/cover images in `assets/images/`.
 3. Sign your description file using the **parachain owner account**:
    - [Sign for Polkadot](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.polkadot.io#/signing)
