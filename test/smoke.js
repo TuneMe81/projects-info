@@ -21,5 +21,5 @@ for (const network of expectedNetworks) {
     Object.prototype.hasOwnProperty.call(parachainInfos, network),
     `Expected network export for ${network}`
   );
-  assert.ok(isPlainObject(parachainInfos[network]), `Expected ${network} export to be an object`);
+  assert.ok(isPlainObject(parachainInfos[network]), `Expected ${network} export to be a plain object`);
 }
