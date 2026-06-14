@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/subscan-explorer/parachain-projects-info.git"
+    "url": "git+https://github.com/subscan-explorer/projects-info.git"
   },
   "keywords": [
     "subscan",
@@ -20,9 +20,9 @@
   "author": "vzxh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/subscan-explorer/parachain-projects-info/issues"
+    "url": "https://github.com/subscan-explorer/projects-info/issues"
   },
-  "homepage": "https://github.com/subscan-explorer/parachain-projects-info#readme",
+  "homepage": "https://github.com/subscan-explorer/projects-info#readme",
   "devDependencies": {
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
