@@ -10,7 +10,7 @@ const definitions = {
       // on all versions
       minmax: [0, undefined],
       types: {
-        Address: 'AccountId',
+        Address: 'MultiAddress',
         AddressInfo: 'Vec<u8>',
         FileAlias: 'Vec<u8>',
         Guarantee: {
@@ -25,7 +25,7 @@ const definitions = {
           code: 'Vec<u8>'
         },
         ISVBody: 'Vec<u8>',
-        LookupSource: 'AccountId',
+        LookupSource: 'MultiAddress',
         MerchantInfo: {
           address: 'Vec<u8>',
           storage_price: 'Balance',
